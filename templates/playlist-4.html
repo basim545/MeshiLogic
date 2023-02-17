@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>playlist-1</title>
+	<title>playlist-4</title>
 		<link rel="stylesheet" type="text/css" href="../css/main.css">
 		<script src="../javascript/main.js"></script>
 	
@@ -72,13 +72,15 @@
 
 	<div id="right-sidebar">
 
-<h2 class="sub-head">Online Campus :-Syllabus and Library Management</h2>		
+
+<h2 class="sub-head">Online Campus :- Store management</h2>	
 
 <div class="row">
-        <div id="videop1" class="video-frame"></div>
-        <div id="videop2" class="video-frame"></div>
-        
-</div> 
+		<div id="videop1" class="video-frame"></div>
+		<div id="videop2" class="video-frame"></div>
+		<div id="videop3" class="video-frame"></div>
+		
+</div>		
 
 
 
@@ -100,13 +102,12 @@
 	 window.onload= loadPlaylist();
     function loadPlaylist() {
  
+               document.getElementById('videop1').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/dtMKhTB8_2I" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+ "<p>Meshilogic - Online Campus - Store Management (part 1)</p>";
 
-               document.getElementById('videop1').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/GajO_dmj66M" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+ "<p>Meshilogic - Online Campus Library Management </p>";
 
+                document.getElementById('videop2').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/XXzHZ_9P8Lc" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic - Online Campus - Store Management (Part 2)";
 
-                document.getElementById('videop2').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/ElcFfs8s-a8" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic - Online Campus - Syllabus Management";
-    	
-
+                 document.getElementById('videop3').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/0mKeTJiUGBI" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic - Online Campus - Store Management (Part 3)";
               
     }
 
