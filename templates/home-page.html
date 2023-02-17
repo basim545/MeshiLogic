@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Page</title>
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<script src="../javascript/main.js"></script>
+	
+</head>
+<body>
+
+	<div id="outer-box">
+
+
+		<!--navigation start here-->
+	<nav>
+
+	<div class="navbar">
+		<div class="logo"><img id="img-img" src="../images/MLlogo.png" height="60px" width="60px"> MeshiLogic</div>
+
+
+
+	<div class="menu-bar">
+		<ul>
+			<li><a href="about.html">About</a> </li>
+		</ul>
+
+		<div class="cnt-button"><a href="contactpage.html"><button class="contact-button">contact</button></a></div>
+
+
+	</div>
+		</div>
+	</nav>
+
+<div id="main">
+
+<!--left sidebar starts here-->
+
+	<div id="left-sidebar">
+
+
+    <div class="playlist-head"><img src="../images/MLplaylist.png" width="20" height="20"> PLAYLISTS </div>
+
+
+    <div id="playlist-but">
+
+    	<a href="home-page.html"><button class="pl" id="home-btn"> HOME </button></a>
+
+    <ul>
+            	
+ <li><a href="playlist-1.html"><button class="pl" >Playlist 1</button></a></li>
+ <li><a href="playlist-2.html"><button class="pl" >Playlist 2</button></a></li>
+ <li><a href="playlist-3.html"><button class="pl" >Playlist 3</button></a></li>
+ <li><a href="playlist-4.html"><button class="pl" >Playlist 4</button></a></li>
+ <li><a href="playlist-5.html"><button class="pl" >Playlist 5</button></a></li>
+ <li><a href="playlist-6.html"><button class="pl" >Playlist 6</button></a></li>
+ <li><a href="playlist-7.html"><button class="pl" >Playlist 7</button></a></li>
+ <li><a href="playlist-8.html"><button class="pl" >Playlist 8</button></a></li>
+                
+    </ul>  
+
+    </div>          
+		
+
+
+
+	</div>
+
+
+
+
+	<div id="right-sidebar">
+
+<h2 class="sub-head">All Videos</h2>	
+
+<div class="row">
+		<div id="videop1" class="video-frame"></div>
+		<div id="videop2" class="video-frame"></div>
+		<div id="videop3" class="video-frame"></div>
+		
+</div>
+<div class="row">
+		<div id="videop4" class="video-frame"></div>
+		<div id="videop5" class="video-frame"></div>
+		<div id="videop6" class="video-frame"></div>
+		
+</div>
+<div class="row">
+		<div id="videop7" class="video-frame"></div>
+		<div id="videop8" class="video-frame"></div>
+		<div id="videop9" class="video-frame"></div>
+		
+</div>
+<div class="row">
+		<div id="videop10" class="video-frame"></div>
+		<div id="videop11" class="video-frame"></div>
+		<div id="videop12" class="video-frame"></div>
+		
+</div>
+<div class="row">
+		<div id="videop13" class="video-frame"></div>
+		<div id="videop14" class="video-frame"></div>
+		<div id="videop15" class="video-frame"></div>
+		
+</div>
+<div class="row">
+		<div id="videop16" class="video-frame"></div>
+		<div id="videop17" class="video-frame"></div>
+		<div id="videop18" class="video-frame"></div>
+		
+</div>
+<div class="row">
+		<div id="videop19" class="video-frame"></div>
+		<div id="videop20" class="video-frame"></div>
+		<div id="videop21" class="video-frame"></div>
+		
+</div>
+<div class="row">
+		<div id="videop22" class="video-frame"></div>
+		<div id="videop23" class="video-frame"></div>
+		<div id="videop24" class="video-frame"></div>
+		
+</div>
+<div class="row">
+		<div id="videop25" class="video-frame"></div>
+		<div id="videop26" class="video-frame"></div>
+		<div id="videop27" class="video-frame"></div>
+		
+</div>
+<div class="row">
+		<div id="videop28" class="video-frame"></div>
+		<div id="videop29" class="video-frame"></div>
+		<div id="videop30" class="video-frame"></div>
+		
+</div>
+<div class="row">
+		<div id="videop31" class="video-frame"></div>
+		<div id="videop32" class="video-frame"></div>
+		<div id="videop33" class="video-frame"></div>
+		
+</div>	
+<div class="row">
+		<div id="videop34" class="video-frame"></div>
+		<div id="videop35" class="video-frame"></div>
+		<div id="videop36" class="video-frame"></div>
+		
+</div>
+<div class="row">
+		<div id="videop37" class="video-frame"></div>
+		<div id="videop38" class="video-frame"></div>
+		<div id="videop39" class="video-frame"></div>
+		
+</div>
+<div class="row">
+		<div id="videop40" class="video-frame"></div>
+		<div id="videop41" class="video-frame"></div>
+		<div id="videop42" class="video-frame"></div>
+		
+</div>
+<div class="row">
+		<div id="videop43" class="video-frame"></div>
+		<div id="videop44" class="video-frame"></div>
+		<div id="videop45" class="video-frame"></div>
+		
+</div>			
+
+
+
+		<!--play list videos will come here-->
+	</div>
+
+
+</div>
+
+	</div>
+
+
+
+<script type="text/javascript">
+
+
+
+	 window.onload= loadPlaylist();
+    function loadPlaylist() {
+ 
+              document.getElementById('videop1').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/GajO_dmj66M" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+ "<p>Meshilogic - Online Campus Library Management</p>";
+
+
+                document.getElementById('videop2').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/ElcFfs8s-a8" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic - Online Campus - Syllabus Management";
+
+
+                document.getElementById('videop3').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/_MUDZxStiec" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+ "<p>Meshilogic - Online Campus - Fixed Assets (Part 1)</p>";
+
+
+                document.getElementById('videop4').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/oAZDkPlzvrs" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic - Online Campus - Fixed Assets (Part 2)";
+
+
+                document.getElementById('videop5').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/VvJQzcmAZM8" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+ "<p>Meshilogic - Online Campus - Transportation (part 1)</p>";
+
+
+                document.getElementById('videop6').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/NOk8wvkd7a4" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic - Online Campus - Transportation (Part 2)";
+
+
+                document.getElementById('videop7').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/dtMKhTB8_2I" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+ "<p>Meshilogic - Online Campus - Store Management (part 1)</p>";
+
+
+                document.getElementById('videop8').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/XXzHZ_9P8Lc" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic - Online Campus - Store Management (Part 2)";
+
+                 document.getElementById('videop9').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/0mKeTJiUGBI" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic - Online Campus - Store Management (Part 3)";
+
+
+                 document.getElementById('videop10').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/ebyCcX0h8js" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+ "<p>Meshilogic - Online  Campus - Overview (Part 1)</p>";
+
+
+                document.getElementById('videop11').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/cIpUFvHgeeU" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic - Online Campus - Overview (Part 2)";
+
+                 document.getElementById('videop12').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/AYWk7KktX8c" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic - Online Campus - Overview (Part 3)";
+
+
+                 document.getElementById('videop13').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/Yf6rejNtfqA" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic- Online Campus - Overview (Part 3.1)";
+
+
+                 document.getElementById('videop14').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/UmYqh28NC5k" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic- Online Campus - Overview (Part 4)";
+
+
+
+
+                 document.getElementById('videop15').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/SjsQ5B21LAw" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic- Online Campus - Overview (Part 5)";
+
+                 document.getElementById('videop16').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/poEV_I11N28" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic- Online Campus - Overview (Part 6)";
+
+                 document.getElementById('videop17').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/HGDZnMrGlHk" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic- Online Campus - Overview (Part 7)";
+
+
+                  document.getElementById('videop18').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/FsHL_lpCkn4" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic- Online Campus - Overview (Part 8)";
+
+                     document.getElementById('videop19').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/mSpF4CxvuEw" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic- Online Campus - Overview (Part 9)";
+
+                     document.getElementById('videop20').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/U0DluE6s6x8" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic - Online Campus - App - Overview";
+
+                     document.getElementById('videop21').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/SXxVbuDYNMQ" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic - Online Campus - Teacher Login - Overview";
+
+                     document.getElementById('videop22').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/SXxVbuDYNMQ" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"eLearning Campus - Overview";
+
+                     document.getElementById('videop23').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/aipBFtbP-kI" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"eLearning Campus Overview 2";
+
+
+                     document.getElementById('videop24').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/xEfDC0wCOZk" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+ "<p>eLearning Campus for Teachers to Create Category, Course & Activities - Part 1</p>";
+
+
+                document.getElementById('videop25').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/Zw5Em2I3e8Y" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"eLearning Campus for Teachers to Create Category, Course & Activities - Part 2";
+
+                 document.getElementById('videop26').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/JijBVcIN4IM" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"eLearning Campus for Teachers to Create Category, Course & Activities - Part 3";
+
+
+                 document.getElementById('videop27').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/2FfqYzWelow" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"eLearning Campus for Teachers to Create Category, Course & Activities - Part 4";
+
+
+                 document.getElementById('videop28').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/-dEAsnIVETY" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"eLearning Campus for Teachers to Create Online Courses (in Hindi) - Part 1";
+
+
+                 document.getElementById('videop29').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/-Z8qcoLZ220" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"eLearning Campus for Teachers to Create Online Courses (in Hindi) - Part 2";
+
+
+                 document.getElementById('videop30').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/fc0XDcpLB94" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"eLearning Campus for Teachers to Create Online Courses (in Hindi) - Part 3";
+
+
+                 document.getElementById('videop31').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/zTw3kV1TzMY" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"eLearning Campus for Teachers to Create Online Courses (in Hindi) - Part 4";
+
+
+                   document.getElementById('videop32').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/LT75kevqH-4" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+ "<p>Online Campus Short Demo - Whiteboard Animation</p>";
+
+
+                document.getElementById('videop33').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/3UW6uWnN_A4" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"eLearning Campus Demo - Whiteboard Animation";
+
+                 document.getElementById('videop34').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/iTDsZcEzdps" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic Website Design & Development Whiteboard Animation";
+
+
+
+                 document.getElementById('videop35').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/NuN1rLes7pk" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+ "<p>Meshilogic - Online Campus - Academics - Timetable Module part1</p>";
+
+
+                document.getElementById('videop36').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/_pfoeuMRc7Y" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic - Online Campus - Academics Timetable Module part2";
+
+                document.getElementById('videop37').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/9A15oIlXyCs" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic - Online Campus - How to create teachers login";
+
+                document.getElementById('videop38').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/4YYWeUoDd8o" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic - Online Campus - How to shift the divisions from same class";
+
+                document.getElementById('videop39').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/aH6eGrOZfO4" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic - Online Campus - Access Management";
+
+
+                document.getElementById('videop40').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/JR0H-Cs7n44" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic - Online Campus - Administration - Class Masters";
+
+
+                document.getElementById('videop41').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/oaeZZUwo8YQ" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic - Online Campus - How to link siblings in Online Campus 1";
+
+
+                document.getElementById('videop42').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/shjYaYpTPC4" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic - Online Campus - Academics - Students Management";
+
+                document.getElementById('videop43').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/lNnxsPlxHtk" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic - Online Campus - HR & Payroll - Module";
+
+                document.getElementById('videop44').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/PqszEsi7nqk" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic - Online Campus - How to link siblings in Online Campus";
+
+                document.getElementById('videop45').innerHTML = '<iframe width="290" height="180" src="https://www.youtube.com/embed/BXKehq1Cpio" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+"Meshilogic - Online Campus - CRM Module Overview";
+    	
+
+              
+    }
+
+
+	
+
+
+
+
+</script>	
